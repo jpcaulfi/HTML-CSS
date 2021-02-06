@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joseph Caulfield Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><i class="fas fa-home"></i></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Meet <strong>PEPPER</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Algorithm Trading Bot</p>
+            <img src="pepperlogo.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>If you haven't already checked out my page on BRUTUS, take a look before reading on by clicking <a href="project-BRUTUS.html">here</a>. PEPPER is actually one of a handful of siblings to BRUTUS. Each sibling is designed with moderate differences in structural build (changes to functions/classes) with the intention of keeping a broad scope and hopefully engineering more than one profitable robot.</p>
+            <p>All of the bots are programmed to search each price pair for a confluence of patterns. These patterns constist of industry-popular analytical methods such as price levels, regressions, and concavity. However, once the confluence is detected, each sibling bot has its own protocols on how to handle potential trades.</p>
+            &nbsp;
+            <img src="pepperaction.png" alt="">
+            &nbsp;
+            <p>For example, BRUTUS is designed to wait a maximum of 5 minutes for price to move in the favorable direction and with significant momentum. His sister MARY JANE is designed not to wait at all, and instead dive right into the trade upon recognizing confluence.</p>
+            <p>With that being said, PEPPER is our most comprehensive sibling yet. She can observe potential trades for up to 5 hours, she can watch hundreds of potential trades at a time, and - most importantly - she is much more selective about the specific price to enter the trade.</p>
+            &nbsp;
+            <img src="pepperaction2.png" alt="">
+            &nbsp;
+            <p>PEPPER's protocols have been designed thus far based on consecutive test results from BRUTUS and his siblings over the past weeks. She has begun Branch Testing as well, but will likely be modified again since she is most definitely a work in process.</p>
+            &nbsp;
+            <img src="peppermeta.png" alt="">
+            &nbsp;
+            <p>I am optimistic about PEPPER, as she shows great potential already in early results.</p>
+            &nbsp;
+            <img src="pepperchart.png" alt="">
+            &nbsp;
+            <p>Some of the programs used:</p>
+            <ul class="languages-list">
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i class="fab fa-java"></i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i class="fab fa-python"></i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i>MATLAB</i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i>SQL</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:joecaulfield29@yahoo.com" class="footer__link">joecaulfield29@yahoo.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/joecaulf/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/jpcaulfi">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>

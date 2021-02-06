@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joseph Caulfield Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><i class="fas fa-home"></i></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Meet <strong>BRUTUS</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Algorithm Trading Bot</p>
+            <img src="brutuslogo1.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>You know those annoying, monotonous tasks that you sometimes wish you could have an artificial intelligence handle instead? Well for me, one of those things is managing my foreign currency trading account.</p>
+            <p>That's why I set out to build BRUTUS: a fully automated forex trading robot. He also trades crypto-currencies such as Bitcoin, and commodities such as gold and oil!</p>
+            &nbsp;
+            <img src="brutusaction.png" alt="">
+            &nbsp;
+            <p>BRUTUS is a core Python script with tethers to many other programs and APIs. He gets his primary data-feed from MarketWatch (a forex data API), and executes his trades using MetaTrader5 (interactive brokerage interface). I am also using a paper-money brokerage account through TradersWay (online broker).</p>
+            &nbsp;
+            <img src="brutustrade.png" alt="">
+            &nbsp;
+            <p>Right now, BRUTUS is in the "Branch Testing" phase of development, wherein I am running numerous iterations of his script with minor parameter differences simultaneously in parallel. This means I can gather data for, say, 40 different versions of BRUTUS at once, instead of testing one set of parameters for one week and then changing them. </p>
+            &nbsp;
+            <img src="brutusaction2.png" alt="">
+            &nbsp;
+            <p>Going forward, I hope the Branch Testing phase concludes with a final, concise group of parameter sets, across which I will be implementing deep learning!</p>
+            &nbsp;
+            <p>Some of the programs used:</p>
+            <ul class="languages-list">
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i class="fab fa-python"></i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i class="fab fa-js"></i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i>MATLAB</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:joecaulfield29@yahoo.com" class="footer__link">joecaulfield29@yahoo.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/joecaulf/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/jpcaulfi">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>

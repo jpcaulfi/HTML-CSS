@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joseph Caulfield Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><i class="fas fa-home"></i></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Exploring <strong>Deep Learning</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Preview of the Bots' Deep Learning Process</p>
+            <img src="brainlogo.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Again, if you haven't already checked out my page on BRUTUS or PEPPER, take a look at BRUTUS before reading on by clicking <a href="project-BRUTUS.html">here</a>.</p>
+            <p>My team at Jupiter Group and I have been working on the framework to implement deep learning into our algorithm-trading robots. To do this, we researched many industry-popular big data technologies such as Hadoop and Spark, and many of the supplementary compenents that can be used in conjunction with those programs.</p>
+            <p>We decided, based on the requirements of our data and our algorithms, that Apache Spark would be our most valuable tool.</p>
+            &nbsp;
+            <img src="sparklogo1.png" alt="">
+            &nbsp;
+            <p>Apache Spark is capable of molding a very customizable input bottleneck, by which you can sculpt your code according to the distributed file system that Apache and Hadoop use to calculate big data calculations across. For our particular goals, which I will describe below, we are using SparkSQL to house our data and then using SparkMLib (a machine learning library feature offered by Apache) to further our deep learning system.</p>
+            &nbsp;
+            <img src="sparklogo2.png" alt="">
+            &nbsp;
+            <p> The goal is quite simple: Instead of building multiple bots that trade the forex market, we want to build one single bot that STUDIES the forex market and can subsequently build IT'S OWN algorithm-trading bot based on the results of it's own analysis.</p>
+            &nbsp;
+            <img src="brutuslogo2.jpg" alt="">
+            &nbsp;
+            <p> More specifically, we want to take every function that has comprised each bot and give each function an array of possible parameters. Then, we want to make those functions classes in Scala or Java, and make each possible combination of parameters a function. Then we will craft RDDs to run our classes and associated functions across our SQL database, which will simply be price data (Open, High, Low, Close). By molding our code like this, we are preparing for integration to Spark and the subsequent processing power it will provide.</p>
+            <p>Spark is bleeding-edge technology in the big data world, and we could not be more excited to see what the results of our endeavor bring.</p>
+            <p>Our deep learning research program has been officially dubbed:</p>
+            <div class="polaris">
+                <p><strong>Project Polaris</strong></p>
+            </div>
+            &nbsp;
+            <img src="polaris1.jpg" alt="">
+            &nbsp;
+            <p>Some of the programs used:</p>
+            <ul class="languages-list">
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i class="fab fa-python"></i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i class="fab fa-java"></i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i>SQL</i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i>Scala</i>
+                    </a>
+                </li>
+                <li class="languages-list__item">
+                    <a class="languages-list__link">
+                        <i>Spark</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:joecaulfield29@yahoo.com" class="footer__link">joecaulfield29@yahoo.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/joecaulf/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/jpcaulfi">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
